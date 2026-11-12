@@ -1,0 +1,28 @@
+feature,feature_type,test_name,statistic,p_value,effect_size_metric,effect_size,abs_effect_size,direction_or_contrast,q_value_bh,significant_fdr_05
+TotalWorkingYears,continuous,Mann-Whitney U,100567.0,2.399569364798952e-14,Rank_Biserial_r,-0.3117,0.3117,Median Yes=7.0 vs No=10.0,1.5934486953359915e-13,True
+MonthlyIncome,continuous,Mann-Whitney U,100620.5,2.950830917288873e-14,Rank_Biserial_r,-0.3113,0.3113,"Median Yes=3,202.0 vs No=5,204.0",1.5934486953359915e-13,True
+YearsAtCompany,continuous,Mann-Whitney U,102582.0,2.916191369956416e-13,Rank_Biserial_r,-0.2979,0.2979,Median Yes=3.0 vs No=6.0,1.3122861164803873e-12,True
+YearsInCurrentRole,continuous,Mann-Whitney U,105214.0,4.429559530312778e-12,Rank_Biserial_r,-0.2799,0.2799,Median Yes=2.0 vs No=3.0,1.4949763414805625e-11,True
+YearsWithCurrManager,continuous,Mann-Whitney U,106361.5,1.8067542583144407e-11,Rank_Biserial_r,-0.272,0.272,Median Yes=2.0 vs No=3.0,5.420262774943322e-11,True
+Age,continuous,Mann-Whitney U,106859.0,5.304342075341702e-11,Rank_Biserial_r,-0.2686,0.2686,Median Yes=32.0 vs No=36.0,1.4321723603422597e-10,True
+OverTime,categorical/ordinal,Chi-square (dof=1),89.0439,3.861517910432905e-21,Cramers_V,0.2461,0.2461,Highest: Yes (30.5%) vs Lowest: No (10.4%),1.0426098358168844e-19,True
+JobRole,categorical/ordinal,Chi-square (dof=8),86.1903,2.752481638050657e-15,Cramers_V,0.2421,0.2421,Highest: Sales Representative (39.8%) vs Lowest: Research Director (2.5%),3.715850211368387e-14,True
+JobLevel,categorical/ordinal,Chi-square (dof=4),72.529,6.634684715458957e-15,Cramers_V,0.2221,0.2221,Highest: 1 (26.3%) vs Lowest: 4 (4.7%),5.971216243913061e-14,True
+StockOptionLevel,categorical/ordinal,Chi-square (dof=3),60.5983,4.379390336108354e-13,Cramers_V,0.203,0.203,Highest: 0 (24.4%) vs Lowest: 2 (7.6%),1.6891934153560793e-12,True
+MaritalStatus,categorical/ordinal,Chi-square (dof=2),46.1637,9.45551106034083e-11,Cramers_V,0.1772,0.1772,Highest: Single (25.5%) vs Lowest: Divorced (10.1%),2.3208981693563856e-10,True
+JobInvolvement,categorical/ordinal,Chi-square (dof=3),28.492,2.8631806367134195e-06,Cramers_V,0.1392,0.1392,Highest: 1 (33.7%) vs Lowest: 4 (9.0%),6.442156432605194e-06,True
+BusinessTravel,categorical/ordinal,Chi-square (dof=2),24.1824,5.608614476449931e-06,Cramers_V,0.1283,0.1283,Highest: Travel_Frequently (24.9%) vs Lowest: Non-Travel (8.0%),1.1648660835703702e-05,True
+DistanceFromHome,continuous,Mann-Whitney U,164225.5,0.0023870470273627984,Rank_Biserial_r,0.124,0.124,Median Yes=9.0 vs No=7.0,0.0037911923375762093,True
+EnvironmentSatisfaction,categorical/ordinal,Chi-square (dof=3),22.5039,5.1234689062894205e-05,Cramers_V,0.1237,0.1237,Highest: 1 (25.4%) vs Lowest: 4 (13.5%),9.880975747843883e-05,True
+JobSatisfaction,categorical/ordinal,Chi-square (dof=3),17.5051,0.0005563004510387556,Cramers_V,0.1091,0.1091,Highest: 1 (22.8%) vs Lowest: 4 (11.3%),0.00100134081186976,True
+WorkLifeBalance,categorical/ordinal,Chi-square (dof=3),16.3251,0.0009725698845348824,Cramers_V,0.1054,0.1054,Highest: 1 (31.2%) vs Lowest: 3 (14.2%),0.001641211680152614,True
+EducationField,categorical/ordinal,Chi-square (dof=5),16.0247,0.006773980139025212,Cramers_V,0.1044,0.1044,Highest: Human Resources (25.9%) vs Lowest: Other (13.4%),0.009626182302825302,True
+DailyRate,continuous,Mann-Whitney U,133042.0,0.029004575546528265,Rank_Biserial_r,-0.0894,0.0894,Median Yes=699.0 vs No=817.0,0.03915617698781316,True
+Department,categorical/ordinal,Chi-square (dof=2),10.796,0.004525606574479633,Cramers_V,0.0857,0.0857,Highest: Sales (20.6%) vs Lowest: Research & Development (13.8%),0.00678840986171945,True
+YearsSinceLastPromotion,continuous,Mann-Whitney U,134374.0,0.0411791057847264,Rank_Biserial_r,-0.0803,0.0803,Median Yes=1.0 vs No=1.0,0.05294456458036252,False
+TrainingTimesLastYear,continuous,Mann-Whitney U,134785.5,0.04729570730410349,Rank_Biserial_r,-0.0775,0.0775,Median Yes=2.0 vs No=3.0,0.05804473169139974,False
+NumCompaniesWorked,continuous,Mann-Whitney U,152929.5,0.24236505088116522,Rank_Biserial_r,0.0467,0.0467,Median Yes=1.0 vs No=2.0,0.2845154945126722,False
+PercentSalaryHike,continuous,Mann-Whitney U,140726.5,0.36551461755468617,Rank_Biserial_r,-0.0368,0.0368,Median Yes=14.0 vs No=14.0,0.3947557869590611,False
+Gender,categorical/ordinal,Chi-square (dof=1),1.2752,0.25879037049115644,Cramers_V,0.0295,0.0295,Highest: Male (17.0%) vs Lowest: Female (14.8%),0.291139166802551,False
+MonthlyRate,continuous,Mann-Whitney U,149610.5,0.5587480971526364,Rank_Biserial_r,0.024,0.024,"Median Yes=14,618.0 vs No=14,120.0",0.5802384085815839,False
+HourlyRate,continuous,Mann-Whitney U,144575.5,0.7976302912394753,Rank_Biserial_r,-0.0105,0.0105,Median Yes=66.0 vs No=66.0,0.7976302912394753,False
