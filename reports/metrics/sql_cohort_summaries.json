@@ -1,0 +1,215 @@
+{
+  "attrition_by_overtime": [
+    {
+      "OverTime": "Yes",
+      "headcount": 416,
+      "attrition_count": 127,
+      "attrition_rate_pct": 30.53,
+      "avg_monthly_income": 6549.0,
+      "avg_years_at_company": 6.9
+    },
+    {
+      "OverTime": "No",
+      "headcount": 1054,
+      "attrition_count": 110,
+      "attrition_rate_pct": 10.44,
+      "avg_monthly_income": 6485.0,
+      "avg_years_at_company": 7.1
+    }
+  ],
+  "attrition_by_job_role": [
+    {
+      "JobRole": "Sales Representative",
+      "Department": "Sales",
+      "headcount": 83,
+      "attrition_count": 33,
+      "attrition_rate_pct": 39.76,
+      "avg_monthly_income": 2626.0,
+      "overtime_pct": 28.9
+    },
+    {
+      "JobRole": "Laboratory Technician",
+      "Department": "Research & Development",
+      "headcount": 259,
+      "attrition_count": 62,
+      "attrition_rate_pct": 23.94,
+      "avg_monthly_income": 3237.0,
+      "overtime_pct": 23.9
+    },
+    {
+      "JobRole": "Human Resources",
+      "Department": "Human Resources",
+      "headcount": 52,
+      "attrition_count": 12,
+      "attrition_rate_pct": 23.08,
+      "avg_monthly_income": 4236.0,
+      "overtime_pct": 25.0
+    },
+    {
+      "JobRole": "Sales Executive",
+      "Department": "Sales",
+      "headcount": 326,
+      "attrition_count": 57,
+      "attrition_rate_pct": 17.48,
+      "avg_monthly_income": 6924.0,
+      "overtime_pct": 28.8
+    },
+    {
+      "JobRole": "Research Scientist",
+      "Department": "Research & Development",
+      "headcount": 292,
+      "attrition_count": 47,
+      "attrition_rate_pct": 16.1,
+      "avg_monthly_income": 3240.0,
+      "overtime_pct": 33.2
+    },
+    {
+      "JobRole": "Manufacturing Director",
+      "Department": "Research & Development",
+      "headcount": 145,
+      "attrition_count": 10,
+      "attrition_rate_pct": 6.9,
+      "avg_monthly_income": 7295.0,
+      "overtime_pct": 26.9
+    },
+    {
+      "JobRole": "Healthcare Representative",
+      "Department": "Research & Development",
+      "headcount": 131,
+      "attrition_count": 9,
+      "attrition_rate_pct": 6.87,
+      "avg_monthly_income": 7529.0,
+      "overtime_pct": 28.2
+    },
+    {
+      "JobRole": "Manager",
+      "Department": "Research & Development",
+      "headcount": 54,
+      "attrition_count": 3,
+      "attrition_rate_pct": 5.56,
+      "avg_monthly_income": 17130.0,
+      "overtime_pct": 24.1
+    },
+    {
+      "JobRole": "Manager",
+      "Department": "Sales",
+      "headcount": 37,
+      "attrition_count": 2,
+      "attrition_rate_pct": 5.41,
+      "avg_monthly_income": 16987.0,
+      "overtime_pct": 27.0
+    },
+    {
+      "JobRole": "Research Director",
+      "Department": "Research & Development",
+      "headcount": 80,
+      "attrition_count": 2,
+      "attrition_rate_pct": 2.5,
+      "avg_monthly_income": 16034.0,
+      "overtime_pct": 28.7
+    },
+    {
+      "JobRole": "Manager",
+      "Department": "Human Resources",
+      "headcount": 11,
+      "attrition_count": 0,
+      "attrition_rate_pct": 0.0,
+      "avg_monthly_income": 18089.0,
+      "overtime_pct": 36.4
+    }
+  ],
+  "attrition_by_income_quartile": [
+    {
+      "income_quartile_label": "Q1",
+      "min_income": 1009,
+      "max_income": 2911,
+      "headcount": 368,
+      "attrition_count": 108,
+      "attrition_rate_pct": 29.35
+    },
+    {
+      "income_quartile_label": "Q2",
+      "min_income": 2911,
+      "max_income": 4930,
+      "headcount": 368,
+      "attrition_count": 52,
+      "attrition_rate_pct": 14.13
+    },
+    {
+      "income_quartile_label": "Q3",
+      "min_income": 4936,
+      "max_income": 8380,
+      "headcount": 367,
+      "attrition_count": 39,
+      "attrition_rate_pct": 10.63
+    },
+    {
+      "income_quartile_label": "Q4",
+      "min_income": 8381,
+      "max_income": 19999,
+      "headcount": 367,
+      "attrition_count": 38,
+      "attrition_rate_pct": 10.35
+    }
+  ],
+  "attrition_by_tenure_band": [
+    {
+      "tenure_band": "0-1 yrs (New Hire)",
+      "headcount": 215,
+      "attrition_count": 75,
+      "attrition_rate_pct": 34.88,
+      "avg_monthly_income": 4565.0
+    },
+    {
+      "tenure_band": "2-4 yrs (Early)",
+      "headcount": 365,
+      "attrition_count": 66,
+      "attrition_rate_pct": 18.08,
+      "avg_monthly_income": 5045.0
+    },
+    {
+      "tenure_band": "5-9 yrs (Established)",
+      "headcount": 524,
+      "attrition_count": 58,
+      "attrition_rate_pct": 11.07,
+      "avg_monthly_income": 6196.0
+    },
+    {
+      "tenure_band": "10+ yrs (Tenured)",
+      "headcount": 366,
+      "attrition_count": 38,
+      "attrition_rate_pct": 10.38,
+      "avg_monthly_income": 9534.0
+    }
+  ],
+  "attrition_by_job_satisfaction": [
+    {
+      "JobSatisfaction": 1,
+      "satisfaction_label": "1 - Low",
+      "headcount": 289,
+      "attrition_count": 66,
+      "attrition_rate_pct": 22.84
+    },
+    {
+      "JobSatisfaction": 2,
+      "satisfaction_label": "2 - Medium",
+      "headcount": 280,
+      "attrition_count": 46,
+      "attrition_rate_pct": 16.43
+    },
+    {
+      "JobSatisfaction": 3,
+      "satisfaction_label": "3 - High",
+      "headcount": 442,
+      "attrition_count": 73,
+      "attrition_rate_pct": 16.52
+    },
+    {
+      "JobSatisfaction": 4,
+      "satisfaction_label": "4 - Very High",
+      "headcount": 459,
+      "attrition_count": 52,
+      "attrition_rate_pct": 11.33
+    }
+  ]
+}

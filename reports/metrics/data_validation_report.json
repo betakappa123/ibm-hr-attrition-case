@@ -1,0 +1,40 @@
+{
+  "raw_file_name": "WA_Fn-UseC_-HR-Employee-Attrition.csv",
+  "raw_sha256": "a5c31e38bd7fafc9bc333884eb181b06b41b8e5e488e8f7ccb27199fb3be7659",
+  "raw_file_unchanged": true,
+  "raw_row_count": 1470,
+  "raw_column_count": 35,
+  "distinct_employee_numbers": 1470,
+  "duplicate_employee_numbers": 0,
+  "duplicate_feature_groups": 0,
+  "total_missing_cells": 0,
+  "missing_columns_nonzero": {},
+  "domain_violations_nonzero": {},
+  "constant_columns_detected": [
+    "EmployeeCount",
+    "Over18",
+    "StandardHours"
+  ],
+  "constant_columns_dropped": [
+    "EmployeeCount",
+    "Over18",
+    "StandardHours"
+  ],
+  "identifier_columns_retained_as_pk_only": [
+    "EmployeeNumber"
+  ],
+  "clean_row_count": 1470,
+  "clean_column_count": 33,
+  "target_distribution": [
+    {
+      "attrition_label": "No",
+      "employee_count": 1233,
+      "pct_of_workforce": 83.88
+    },
+    {
+      "attrition_label": "Yes",
+      "employee_count": 237,
+      "pct_of_workforce": 16.12
+    }
+  ]
+}
