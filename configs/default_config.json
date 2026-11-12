@@ -1,0 +1,27 @@
+{
+  "random_seed": 42,
+  "paths": {
+    "raw_csv": "data/raw/WA_Fn-UseC_-HR-Employee-Attrition.csv",
+    "sqlite_db": "data/processed/hr_attrition.db",
+    "clean_csv": "data/processed/employees_clean.csv",
+    "sql_dir": "sql",
+    "figures_dir": "reports/figures",
+    "metrics_dir": "reports/metrics",
+    "models_dir": "models"
+  },
+  "modeling": {
+    "test_size": 0.20,
+    "cv_folds": 5,
+    "scoring_metric": "average_precision",
+    "threshold_selection_metric": "f1",
+    "permutation_repeats": 15
+  },
+  "business_scenario_defaults": {
+    "workforce_size": 5000,
+    "baseline_attrition_rate": 0.161224,
+    "intervention_effectiveness": 0.15,
+    "replacement_cost_per_departure": 45000.0,
+    "intervention_cost_per_flagged_employee": 1500.0
+  }
+}
+

@@ -1,0 +1,46 @@
+# Python bytecode & packaging
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing & linting caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Raw third-party data & generated processed databases/tables
+# (Keep directory structure and documentation tracked)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Serialized model binaries
+models/*
+!models/.gitkeep
+*.joblib
+*.pkl
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
