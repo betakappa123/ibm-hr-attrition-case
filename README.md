@@ -7,8 +7,8 @@ End-to-end, leak-free machine learning and SQL analytics pipeline for **Workforc
 ## Project Background (Author-Provided Context)
 
 > [!NOTE]
-> **Author-Provided Background (Separate from Reproducible Repository Results):**
-> An earlier presentation of this project was delivered at an expo with **200+ attendees** and received a **Distinction Award**. That presentation context is provided solely as author background. Every statistical test, model evaluation metric, subgroup audit figure, and scenario projection documented below is strictly generated from the reproducible SQL and Python workflow in this repository.
+> **Author-Provided Background:**
+> This research was presented at Purdue’s Fall 2025 Research Expo to 200+ attendees, including graduate researchers and faculty, and earned a Distinction Award for outstanding research.
 
 ---
 
