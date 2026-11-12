@@ -1,0 +1,129 @@
+{
+  "split": {
+    "train_rows": 1176,
+    "test_rows": 294,
+    "train_positive_count": 190,
+    "train_positive_rate": 0.16156462585034015,
+    "test_positive_count": 47,
+    "test_positive_rate": 0.1598639455782313,
+    "feature_count": 30
+  },
+  "primary_model_selected_by_cv": "XGBoost",
+  "primary_validation_threshold": 0.31,
+  "best_hyperparameters": {
+    "Baseline Logistic Regression": {
+      "tuning": "none (untuned L2 baseline)"
+    },
+    "L1 Logistic Regression": {
+      "classifier__C": 0.25,
+      "classifier__class_weight": "balanced",
+      "sampler": "passthrough"
+    },
+    "Random Forest": {
+      "classifier__class_weight": null,
+      "classifier__max_depth": 8,
+      "classifier__max_features": "sqrt",
+      "classifier__min_samples_leaf": 3,
+      "sampler": "SMOTE"
+    },
+    "XGBoost": {
+      "classifier__balance_positive_weight": false,
+      "classifier__learning_rate": 0.06,
+      "classifier__max_depth": 2,
+      "classifier__n_estimators": 250,
+      "classifier__reg_lambda": 1.0,
+      "sampler": "SMOTE"
+    }
+  },
+  "l1_sparsity_summary": {
+    "total_encoded_features": 49,
+    "non_zero_features": 33,
+    "zeroed_out_features": 16
+  },
+  "models": [
+    {
+      "model": "XGBoost",
+      "cv_pr_auc_mean": 0.6394315983379071,
+      "cv_pr_auc_std": 0.059662678192060455,
+      "cv_roc_auc_mean": 0.8297790893168931,
+      "cv_roc_auc_std": 0.028841713080988776,
+      "oof_f1_at_val_threshold": 0.5665859564164649,
+      "selected_val_threshold": 0.31,
+      "test_pr_auc": 0.5714689793280125,
+      "test_roc_auc": 0.8090274786803342,
+      "test_precision_default_050": 0.75,
+      "test_recall_default_050": 0.3829787234042553,
+      "test_f1_default_050": 0.5070422535211268,
+      "test_precision_val_thr": 0.4098360655737705,
+      "test_recall_val_thr": 0.5319148936170213,
+      "test_f1_val_thr": 0.46296296296296297,
+      "test_tp": 25,
+      "test_fp": 36,
+      "test_tn": 211,
+      "test_fn": 22
+    },
+    {
+      "model": "L1 Logistic Regression",
+      "cv_pr_auc_mean": 0.6234077527237094,
+      "cv_pr_auc_std": 0.062004792088324254,
+      "cv_roc_auc_mean": 0.8288994675582974,
+      "cv_roc_auc_std": 0.030863200081303124,
+      "oof_f1_at_val_threshold": 0.5932203389830508,
+      "selected_val_threshold": 0.71,
+      "test_pr_auc": 0.591419982893718,
+      "test_roc_auc": 0.8090274786803342,
+      "test_precision_default_050": 0.4,
+      "test_recall_default_050": 0.6808510638297872,
+      "test_f1_default_050": 0.5039370078740157,
+      "test_precision_val_thr": 0.5675675675675675,
+      "test_recall_val_thr": 0.44680851063829785,
+      "test_f1_val_thr": 0.5,
+      "test_tp": 21,
+      "test_fp": 16,
+      "test_tn": 231,
+      "test_fn": 26
+    },
+    {
+      "model": "Baseline Logistic Regression",
+      "cv_pr_auc_mean": 0.6054120181989077,
+      "cv_pr_auc_std": 0.08198754839804524,
+      "cv_roc_auc_mean": 0.8271529076498352,
+      "cv_roc_auc_std": 0.028196228068410722,
+      "oof_f1_at_val_threshold": 0.5826330532212886,
+      "selected_val_threshold": 0.74,
+      "test_pr_auc": 0.5569704240396554,
+      "test_roc_auc": 0.8018778533896115,
+      "test_precision_default_050": 0.3488372093023256,
+      "test_recall_default_050": 0.6382978723404256,
+      "test_f1_default_050": 0.45112781954887216,
+      "test_precision_val_thr": 0.5555555555555556,
+      "test_recall_val_thr": 0.425531914893617,
+      "test_f1_val_thr": 0.4819277108433735,
+      "test_tp": 20,
+      "test_fp": 16,
+      "test_tn": 231,
+      "test_fn": 27
+    },
+    {
+      "model": "Random Forest",
+      "cv_pr_auc_mean": 0.59480930703995,
+      "cv_pr_auc_std": 0.0763273450610491,
+      "cv_roc_auc_mean": 0.8167121387532823,
+      "cv_roc_auc_std": 0.032681995054860136,
+      "oof_f1_at_val_threshold": 0.5340314136125655,
+      "selected_val_threshold": 0.38,
+      "test_pr_auc": 0.4722070236905911,
+      "test_roc_auc": 0.7994659316047894,
+      "test_precision_default_050": 0.5384615384615384,
+      "test_recall_default_050": 0.2978723404255319,
+      "test_f1_default_050": 0.3835616438356164,
+      "test_precision_val_thr": 0.42857142857142855,
+      "test_recall_val_thr": 0.5106382978723404,
+      "test_f1_val_thr": 0.46601941747572817,
+      "test_tp": 24,
+      "test_fp": 32,
+      "test_tn": 215,
+      "test_fn": 23
+    }
+  ]
+}
