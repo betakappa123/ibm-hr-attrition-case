@@ -1,0 +1,14 @@
+{
+  "with_demographics": {
+    "feature_count": 30,
+    "cv_pr_auc_mean": 0.6123,
+    "test_pr_auc": 0.5762,
+    "test_roc_auc": 0.8051
+  },
+  "without_age_gender_marital": {
+    "feature_count": 27,
+    "cv_pr_auc_mean": 0.6019,
+    "test_pr_auc": 0.5632,
+    "test_roc_auc": 0.7822
+  }
+}

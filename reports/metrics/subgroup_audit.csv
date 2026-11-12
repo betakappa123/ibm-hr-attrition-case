@@ -1,0 +1,11 @@
+dimension,subgroup,n_test,attrition_count,base_attrition_rate,flagged_selection_rate,precision,recall_tpr,false_positive_rate,f1,pr_auc
+Gender,Female,116,16,0.1379,0.2155,0.4,0.625,0.15,0.4878,0.5235
+Gender,Male,178,31,0.1742,0.2022,0.4167,0.4839,0.1429,0.4478,0.6212
+AgeGroup,Under 30,68,17,0.25,0.3824,0.4231,0.6471,0.2941,0.5116,0.6113
+AgeGroup,30-44,173,21,0.1214,0.1734,0.4,0.5714,0.1184,0.4706,0.6315
+AgeGroup,45+,53,9,0.1698,0.0943,0.4,0.2222,0.0682,0.2857,0.5222
+AgeADEA40Plus,40+ (ADEA Protected),101,16,0.1584,0.1287,0.3846,0.3125,0.0941,0.3448,0.5428
+AgeADEA40Plus,Under 40,193,31,0.1606,0.2487,0.4167,0.6452,0.1728,0.5063,0.6067
+MaritalStatus,Divorced,64,4,0.0625,0.125,0.375,0.75,0.0833,0.5,0.3811
+MaritalStatus,Married,133,18,0.1353,0.1504,0.35,0.3889,0.113,0.3684,0.5088
+MaritalStatus,Single,97,25,0.2577,0.3402,0.4545,0.6,0.25,0.5172,0.66

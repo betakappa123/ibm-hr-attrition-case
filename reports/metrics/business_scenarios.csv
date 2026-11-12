@@ -1,0 +1,6 @@
+scenario_name,workforce_size,baseline_attrition_rate_pct,assumed_intervention_effectiveness_pct,model_recall,model_fpr,replacement_cost_per_departure,intervention_cost_per_flagged,baseline_departures,flagged_employees,true_leavers_contacted,false_positives_contacted,prevented_departures,post_attrition_rate_pct,achieved_relative_reduction_pct,achieved_percentage_point_reduction_pp,gross_replacement_savings,total_intervention_cost,net_cost_savings,roi_pct,breakeven_effectiveness_pct
+Conservative ML-Targeted (eta=10%),5000,16.122,10.0,0.5319,0.1457,45000.0,1500.0,806.12,1040.04,428.79,611.25,42.88,15.265,5.319,0.858,1929542.55,1560061.5,369481.05,23.68,8.0851
+Moderate ML-Targeted (eta=15%),5000,16.122,15.0,0.5319,0.1457,45000.0,1500.0,806.12,1040.04,428.79,611.25,64.32,14.836,7.979,1.286,2894313.83,1560061.5,1334252.33,85.53,8.0851
+Optimistic ML-Targeted (eta=25%),5000,16.122,25.0,0.5319,0.1457,45000.0,1500.0,806.12,1040.04,428.79,611.25,107.2,13.978,13.298,2.144,4823856.38,1560061.5,3263794.88,209.21,8.0851
+Untargeted Blanket Program (eta=15%),5000,16.122,15.0,1.0,1.0,45000.0,1500.0,806.12,5000.0,806.12,4193.88,120.92,13.704,15.0,2.418,5441310.0,7500000.0,-2058690.0,-27.45,20.6752
+Zero-Efficacy Null Intervention (eta=0%),5000,16.122,0.0,0.5319,0.1457,45000.0,1500.0,806.12,1040.04,428.79,611.25,0.0,16.122,0.0,0.0,0.0,1560061.5,-1560061.5,-100.0,8.0851
